@@ -3,9 +3,9 @@
 int main(void) {
     int a, b;
 
-    printf("请输入两个整数：");
+    printf("Please enter two integers: ");
     scanf("%d %d", &a, &b);
 
-    printf("和为：%d\n", a + b);
+    printf("Sum: %d\n", a + b);
     return 0;
 }
