@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, World!\n");
+    int a, b;
+
+    printf("请输入两个整数：");
+    scanf("%d %d", &a, &b);
+
+    printf("和为：%d\n", a + b);
     return 0;
 }
